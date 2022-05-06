@@ -7,6 +7,11 @@ import trancoso from "../../assets/trancoso.png";
 import caraiva from "../../assets/caraiva.png";
 import arraial from "../../assets/arraial.png";
 import clubmed from "../../assets/clubmed.png";
+import morrosp from "../../assets/morrosp.png";
+import pitinga from "../../assets/card-pitinga.png";
+import cabralia from "../../assets/cabralia.png";
+import coroa from "../../assets/coroa.png";
+
 
 function Carrossel() {
   const responsive = {
@@ -53,13 +58,16 @@ function Carrossel() {
             <img src={clubmed} alt="Sistema Logo" />
           </div>
           <div className="card">
-            <img src={teste} alt="Sistema Logo" />
+            <img src={morrosp} alt="Sistema Logo" />
           </div>
           <div className="card">
-            <img src={teste} alt="Sistema Logo" />
+            <img src={pitinga} alt="Sistema Logo" />
           </div>
           <div className="card">
-            <img src={teste} alt="Sistema Logo" />
+            <img src={cabralia} alt="Sistema Logo" />
+          </div>
+          <div className="card">
+            <img src={coroa} alt="Sistema Logo" />
           </div>
         </Carousel>
         ;
