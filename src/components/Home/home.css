@@ -1,0 +1,174 @@
+#home{
+    background-image: url(../../assets/pitinga.png);
+    background-size: 1920px 1273px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1920px;
+    height: 1150px;
+}
+
+.home-container{
+    display: flex;
+    width: 55%;
+}
+
+.h1-content{
+    color: #fff;
+    margin-top: 312px;
+    margin-left: 25%;
+    font-size: 1.8rem;
+    font-family: 'Oswald';
+    letter-spacing: 2.5px;
+}
+
+.span-home{
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
+.content-home{
+    width: 45%;
+}
+
+.form-home{
+    width: 530px;
+    height: fit-content;
+    margin-top: 217px;
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 10px;
+}
+
+.teste{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 7%;
+}
+
+.title-form{
+    color: #326EC7;
+    text-align: center;
+    width: 83%;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+}
+
+.red-border{
+    border: 1px solid red;
+}
+
+input,
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+textarea{
+    height: 120px;
+}
+
+
+
+input[type='submit'] {
+    background-color: #326EC7;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 85%;
+}
+
+
+input[type='submit']:hover {
+    background-color:#00B4C7;
+}
+
+label {
+    display: flex;
+    color: #326EC7;
+    flex-direction: column;
+}
+
+
+
+
+@media (max-width: 1280px){
+    #home{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-home{
+       margin-left: 0%;
+    }
+    .form-home{
+        width: 450px;
+        height: fit-content;
+        margin-top: 0%;
+    }
+    .home-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 18%;
+    }
+
+    .h1-content{
+        width: 100%;
+        font-size: 1.4rem;
+        margin: 0%;
+        margin-bottom: 50px;
+    }
+    .span-home{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 700px){
+    #home{
+        background-image: url(../../assets/background.png);
+        background-size: 700px 1273px;
+    }
+    .content-home{
+        margin-left: 10%;
+        width: 90%;
+        margin-top: 90px;
+     }
+     .home-container{
+         width: auto;
+         margin-left: 0%;
+         margin-top: -150px;
+     }
+
+     .h1-content{
+         font-size: 1rem;
+         margin-bottom: 0%;
+         
+     }
+     .span-home{
+         font-size: 0.6rem;
+     }
+     .form-home{
+        width: 90%;
+        height: fit-content;
+        margin-top: -50px;
+    }
+    .teste{
+        margin-left: 5%;
+        
+    }
+   
+
+    input, textarea{
+        margin-bottom: 5px;
+    }
+}

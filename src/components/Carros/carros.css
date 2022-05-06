@@ -1,0 +1,121 @@
+#carros{
+    width: 100%;
+    height: 1080px;
+    background-color: #FCFDFF;
+}
+
+.h1-carros{
+    font-family: 'Oswald';
+    color: #326EC7;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.carros-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duster-img{
+    width: fit-content;
+    margin-left: 20%;
+}
+
+.renault-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+}
+
+.text-renault{
+    padding-left: 2%;
+}
+
+.text-renault img{
+    width: 291.9px;
+    height: 215.41px;
+}
+
+.jeep-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.compass-img{
+    width: fit-content;
+   
+}
+
+.text-jeep{
+   padding-right: 2%;
+}
+
+.text-jeep img{
+    width: 269px;
+    height: 248.5;
+ }
+
+@media (max-width: 1280px){
+    #carros{
+        height: 750px;
+    }
+    .renault-content{
+        margin-right: 18%;
+    }
+    .jeep-content{
+        margin-left: 0%;
+    }
+    .duster-img{
+        width: fit-content;
+    }
+    .duster-img img{
+        width: 400px;
+        height: 338.65px;
+    }
+    .text-renault{
+        margin-left: 20%;
+        margin-bottom: 30px;
+    }
+    .text-renault img{
+        width: 226px;
+        height: 177px;
+    }
+    .compass-img img{
+        width: 400px;
+        height: 278.64px;
+    }
+    .text-jeep{
+        margin-top: 30px;
+    }
+    .text-jeep img{
+        width: 226px;
+        height: 177px;
+    }
+}
+
+@media (max-width: 700px){
+    #carros{
+        height: 1030px;
+    }
+    .renault-content{
+        flex-direction: column;
+    }
+    .jeep-content{
+        flex-direction: column-reverse;
+    }
+    .duster-img img{
+        width: 300px;
+        height: 253.99px;
+    }
+    .compass-img img{
+        width: 300px;
+        height: 208.98px;
+    }
+ 
+}

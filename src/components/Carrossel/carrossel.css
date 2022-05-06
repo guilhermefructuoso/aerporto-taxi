@@ -1,0 +1,27 @@
+
+.carrossel-content{
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0 ;
+}
+
+.title-destino{
+  align-self: center;
+  font-family: 'Oswald';
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.card{
+  margin-left: 10%;
+}
+
+@media (max-width: 700px){
+  .title-destino{
+    font-size: 0.8rem;
+  }
+  .card{
+    margin-left: 0%;
+  }
+}
