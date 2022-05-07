@@ -16,7 +16,7 @@ const customStyles = {
         height: 'auto',
         color: '#fff',
         background: 'rgba(0, 80, 199)',
-        top: '180px',
+        top: '153px',
         right: 'auto',
         bottom: 'auto',
         borderRadius: '8px',
@@ -94,11 +94,6 @@ function NavBar() {
                                     Destinos
                                 </AnchorLink>
                             </div>
-                            <div className="anchor-modal">
-                                <AnchorLink href="#servicos">
-                                    Serviços
-                                </AnchorLink>
-                            </div>
                         </div>
                     </Modal>
                 </div>
@@ -122,11 +117,6 @@ function NavBar() {
                             <div className="anchor-modal">
                                 <AnchorLink href="#destinos">
                                     Destinos
-                                </AnchorLink>
-                            </div>
-                            <div className="anchor-modal">
-                                <AnchorLink href="#servicos">
-                                    Serviços
                                 </AnchorLink>
                             </div>
                 </div>

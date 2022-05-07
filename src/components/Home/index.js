@@ -10,6 +10,7 @@ function Home() {
   } = useForm();
   const onSubmit = (data) => console.log(data);
 
+
   return (
     <section id="home">
       <div className="home-container">
