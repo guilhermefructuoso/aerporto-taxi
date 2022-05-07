@@ -8,16 +8,16 @@ import Footer from './components/Footer'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
-  return (
-    <BrowserRouter>
-    <Nav/>
-    <Home/>
-    <SobreNos/>
-    <Carros/>
-    <Carrossel/>
-    <Footer/>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Nav />
+            <Home />
+            <SobreNos />
+            <Carros />
+            <Carrossel />
+            <Footer />
+        </BrowserRouter>
+    )
 }
 
-export default App;
+export default App

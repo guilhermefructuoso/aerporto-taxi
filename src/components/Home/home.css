@@ -1,4 +1,4 @@
-#home{
+#home {
     background-image: url(../../assets/pitinga.png);
     background-size: 1920px 1273px;
     display: flex;
@@ -8,12 +8,12 @@
     height: 1150px;
 }
 
-.home-container{
+.home-container {
     display: flex;
     width: 55%;
 }
 
-.h1-content{
+.h1-content {
     color: #fff;
     margin-top: 312px;
     margin-left: 25%;
@@ -22,24 +22,24 @@
     letter-spacing: 2.5px;
 }
 
-.span-home{
+.span-home {
     font-size: 1rem;
     font-family: 'Roboto';
 }
 
-.content-home{
+.content-home {
     width: 45%;
 }
 
-.form-home{
+.form-home {
     width: 530px;
     height: fit-content;
     margin-top: 217px;
-    background: rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 }
 
-.teste{
+.teste {
     width: 100%;
     height: auto;
     padding-top: 10px;
@@ -47,15 +47,15 @@
     margin-left: 7%;
 }
 
-.title-form{
-    color: #326EC7;
+.title-form {
+    color: #326ec7;
     text-align: center;
     width: 83%;
     font-family: 'Oswald';
     letter-spacing: 1px;
 }
 
-.red-border{
+.red-border {
     border: 1px solid red;
 }
 
@@ -70,12 +70,12 @@ textarea {
     resize: none;
 }
 
-textarea{
+textarea {
     height: 120px;
 }
 
 input[type='submit'] {
-    background-color: #326EC7;
+    background-color: #326ec7;
     color: white;
     padding: 15px;
     border: none;
@@ -84,89 +84,90 @@ input[type='submit'] {
     width: 85%;
 }
 
-
 input[type='submit']:hover {
-    background-color:#00B4C7;
+    background-color: #00b4c7;
 }
 
 label {
     display: flex;
-    color: #326EC7;
+    color: #326ec7;
     flex-direction: column;
 }
 
+.whats {
+    position: fixed;
+    z-index: 100;
+    bottom: 15px;
+    right: 40px;
+}
 
-
-
-@media (max-width: 1280px){
-    #home{
-        display:flex;
+@media (max-width: 1280px) {
+    #home {
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .content-home{
-       margin-left: 0%;
+    .content-home {
+        margin-left: 0%;
     }
-    .form-home{
+    .form-home {
         width: 450px;
         height: fit-content;
         margin-top: 0%;
     }
-    .home-container{
+    .home-container {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 18%;
     }
 
-    .h1-content{
+    .h1-content {
         width: 100%;
         font-size: 1.4rem;
         margin: 0%;
         margin-bottom: 50px;
     }
-    .span-home{
+    .span-home {
         font-size: 0.8rem;
     }
 }
 
-@media (max-width: 700px){
-    #home{
+@media (max-width: 700px) {
+    #home {
         background-image: url(../../assets/background.png);
         background-size: 700px 1273px;
     }
-    .content-home{
+    .content-home {
         margin-left: 10%;
         width: 90%;
         margin-top: 90px;
-     }
-     .home-container{
-         width: auto;
-         margin-left: 0%;
-         margin-top: -150px;
-     }
+    }
+    .home-container {
+        width: auto;
+        margin-left: 0%;
+        margin-top: -150px;
+    }
 
-     .h1-content{
-         font-size: 1rem;
-         margin-bottom: 0%;
-         
-     }
-     .span-home{
-         font-size: 0.6rem;
-     }
-     .form-home{
+    .h1-content {
+        font-size: 1rem;
+        margin-bottom: 0%;
+    }
+    .span-home {
+        font-size: 0.6rem;
+    }
+    .form-home {
         width: 90%;
         height: fit-content;
         margin-top: -50px;
     }
-    .teste{
+    .teste {
         margin-left: 5%;
-        
     }
-   
 
-    input, textarea{
+    input,
+    textarea {
         margin-bottom: 5px;
     }
 }

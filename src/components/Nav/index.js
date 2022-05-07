@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Modal from 'react-modal'
 import { useState } from 'react'
 import logo from '../../assets/logo.png'
@@ -46,38 +46,60 @@ function NavBar() {
     customStyles.content.width = isMobile ? '100%' : '300px'
     customStyles.content.left = isMobile ? '50%' : '75%'
 
-
- return (
-    <section id="nav">
-    <nav className="nav-container">
-        <div className="logo">
-            <AnchorLink href="#nav">
-            <img src={logo} alt="Sistema Logo" />
-            </AnchorLink>
-        </div>
-        <div className="menu">
-            {isTablet ? (
-                <div className="menu-navi">
-                    <button
-                        className="modal-button"
-                        onClick={
-                            isModalOpened
-                                ? handleCloseModal
-                                : handleOpenModal
-                        }
-                    >
-                        {isModalOpened ? (
-                            <RiCloseFill size={35} color="#fff" />
-                        ) : (
-                            <GiHamburgerMenu size={30} color="#fff" />
-                        )}
-                    </button>
-                    <Modal isOpen={isModalOpened} style={customStyles}>
-                        <div className="menu-modal">
+    return (
+        <section id="nav">
+            <nav className="nav-container">
+                <div className="logo">
+                    <AnchorLink href="#nav">
+                        <img src={logo} alt="Sistema Logo" />
+                    </AnchorLink>
+                </div>
+                <div className="menu">
+                    {isTablet ? (
+                        <div className="menu-navi">
+                            <button
+                                className="modal-button"
+                                onClick={
+                                    isModalOpened
+                                        ? handleCloseModal
+                                        : handleOpenModal
+                                }
+                            >
+                                {isModalOpened ? (
+                                    <RiCloseFill size={35} color="#fff" />
+                                ) : (
+                                    <GiHamburgerMenu size={30} color="#fff" />
+                                )}
+                            </button>
+                            <Modal isOpen={isModalOpened} style={customStyles}>
+                                <div className="menu-modal">
+                                    <div className="anchor-modal">
+                                        <AnchorLink href="#home">
+                                            Home
+                                        </AnchorLink>
+                                    </div>
+                                    <div className="anchor-modal">
+                                        <AnchorLink href="#sobrenos">
+                                            Sobre Nós
+                                        </AnchorLink>
+                                    </div>
+                                    <div className="anchor-modal">
+                                        <AnchorLink href="#carros">
+                                            Carros
+                                        </AnchorLink>
+                                    </div>
+                                    <div className="anchor-modal">
+                                        <AnchorLink href="#destinos">
+                                            Destinos
+                                        </AnchorLink>
+                                    </div>
+                                </div>
+                            </Modal>
+                        </div>
+                    ) : (
+                        <div className="menu-anchor">
                             <div className="anchor-modal">
-                                <AnchorLink href="#home">
-                                    Home
-                                </AnchorLink>
+                                <AnchorLink href="#home">Home</AnchorLink>
                             </div>
                             <div className="anchor-modal">
                                 <AnchorLink href="#sobrenos">
@@ -85,9 +107,7 @@ function NavBar() {
                                 </AnchorLink>
                             </div>
                             <div className="anchor-modal">
-                                <AnchorLink href="#carros">
-                                    Carros
-                                </AnchorLink>
+                                <AnchorLink href="#carros">Carros</AnchorLink>
                             </div>
                             <div className="anchor-modal">
                                 <AnchorLink href="#destinos">
@@ -95,37 +115,11 @@ function NavBar() {
                                 </AnchorLink>
                             </div>
                         </div>
-                    </Modal>
+                    )}
                 </div>
-            ) : (
-                <div className="menu-anchor">
-                      <div className="anchor-modal">
-                                <AnchorLink href="#home">
-                                    Home
-                                </AnchorLink>
-                            </div>
-                            <div className="anchor-modal">
-                                <AnchorLink href="#sobrenos">
-                                    Sobre Nós
-                                </AnchorLink>
-                            </div>
-                            <div className="anchor-modal">
-                                <AnchorLink href="#carros">
-                                    Carros
-                                </AnchorLink>
-                            </div>
-                            <div className="anchor-modal">
-                                <AnchorLink href="#destinos">
-                                    Destinos
-                                </AnchorLink>
-                            </div>
-                </div>
-            )}
-        </div>
-    </nav>
-</section>
-
- );
+            </nav>
+        </section>
+    )
 }
 
 export default NavBar
