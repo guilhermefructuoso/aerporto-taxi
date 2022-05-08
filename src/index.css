@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Open+Sans:wght@300&family=Oswald&family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Open+Sans:wght@300&family=Oswald&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Roboto:wght@300;400;700&display=swap');
 body {
     background-color: #326ec7;
     margin: 0;
@@ -20,4 +20,5 @@ code {
     width: 100%;
     max-width: 1920px;
 }
+
 

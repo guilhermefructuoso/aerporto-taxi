@@ -11,6 +11,9 @@
     font-size: 1.2rem;
     padding-top: 60px;
 }
+.h1-carros h1{
+    font-weight: 400;
+}
 
 .carros-container {
     display: flex;
@@ -76,7 +79,7 @@
     }
     .duster-img img {
         width: 400px;
-        height: 338.65px;
+        height: 283.9px;
     }
     .text-renault {
         padding-left: 5%;
@@ -115,7 +118,7 @@
     }
     .duster-img img {
         width: 300px;
-        height: 253.99px;
+        height: 212.92px;
     }
     .compass-img img {
         width: 300px;

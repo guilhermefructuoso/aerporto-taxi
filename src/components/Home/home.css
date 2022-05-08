@@ -1,5 +1,6 @@
+
 #home {
-    background-image: url(../../assets/pitinga.png);
+    background-image: url(../../assets/background1.png);
     background-size: 1920px 1273px;
     display: flex;
     flex-direction: row;
@@ -15,15 +16,19 @@
 
 .h1-content {
     color: #fff;
-    margin-top: 312px;
+    margin-top: 223px;
     margin-left: 25%;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     font-family: 'Oswald';
-    letter-spacing: 2.5px;
+}
+
+.h1-content h1{
+    font-weight: 400;
+    line-height: 70px;
 }
 
 .span-home {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: 'Roboto';
 }
 
@@ -37,6 +42,10 @@
     margin-top: 217px;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
+}
+
+.label{
+    font-family: 'Roboto';
 }
 
 .teste {
@@ -82,6 +91,9 @@ button[type='submit'] {
     border-radius: 4px;
     cursor: pointer;
     width: 85%;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto';
 }
 
 button[type='submit']:hover {
@@ -108,6 +120,7 @@ label {
         align-items: center;
         justify-content: center;
     }
+ 
     .content-home {
         margin-left: 0%;
     }
@@ -128,9 +141,15 @@ label {
         font-size: 1.4rem;
         margin: 0%;
         margin-bottom: 50px;
+        align-items: center;
+        
+    }
+    .h1-content h1{
+        line-height: normal;
     }
     .span-home {
         font-size: 0.8rem;
+        margin-left: 4%;
     }
 }
 
@@ -151,11 +170,14 @@ label {
     }
 
     .h1-content {
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-bottom: 0%;
+        width: 100%;
     }
     .span-home {
-        font-size: 0.6rem;
+        width: 100%;
+        font-size: 0.9rem;
+        margin-left: 0;
     }
     .form-home {
         width: 90%;

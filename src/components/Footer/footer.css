@@ -114,7 +114,7 @@ p {
         width: 100%;
         height: 2px;
     }
-    p {
+    .p-footer {
         font-size: 0.75rem;
     }
     .logo-footer {

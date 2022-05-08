@@ -8,14 +8,43 @@
     align-self: center;
     font-family: 'Oswald';
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 1.2rem;
+    padding-bottom: 25px;
+}
+
+.title-destino h1{
+    font-weight: 400;
+}
+
+.text-destinos{
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    align-self: center;
+    font-family: 'Roboto';
+    
+    font-size: 1.5rem;
     padding-bottom: 40px;
+    line-height: 30px;
+}
+.text-destinos{
+    font-weight: 300;
 }
 
 .cards-carrossel {
     align-items: center;
     padding-bottom: 40px;
+}
+
+@media (max-width: 1280px){
+    .text-destinos {
+        width: 90%;
+        line-height: 23px;
+    }
+    .text-destinos p{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 700px) {

@@ -57,7 +57,7 @@ function Footer() {
                 <div className="linha">
                     <img src={line} alt="Sistema Logo" />
                 </div>
-                <div>
+                <div className='p-footer'>
                     <p>AeroPorto 2022 © Desenvolvido por Agência </p>
                 </div>
             </div>

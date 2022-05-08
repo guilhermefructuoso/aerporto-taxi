@@ -14,31 +14,39 @@ function SobreNos() {
     return (
         <section id="sobrenos">
             <div className="container-sobre">
-                <h1>SOBRE NÓS</h1>
+                <div className="h1-sobre">
+                    <h1>SOBRE NÓS</h1>
+                </div>
                 <div className="text-sobre">
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages, and
-                        more recently with desktop publishing software like
-                        Aldus PageMaker including versions of Lorem Ipsum.
+                        A AeroPorto – Serviço de Táxi foi criada por 3 amigos
+                        que se conheceram em 2016 e entre muitas coisas em
+                        comum, a paixão por trabalhar com o serviço de táxi fez
+                        com que decidissem abrir a própria empresa de táxi. São
+                        mais de 6 anos atuando com o transporte de pessoas,
+                        sempre com muita dedicação e qualidade para fazer da sua
+                        viagem um momento inesquecível. A frota é composta por
+                        carros SUVS e equipados com ar-condicionado para o
+                        melhor conforto. Todos os motoristas conhecem o sul da
+                        Bahia como a palma de sua mão e buscam sempre atender os
+                        clientes com todo o conhecimento que adquiriram nesses
+                        anos. Para contratar o serviço é prático e fácil, você
+                        pode solicitar o seu orçamento aqui no site ou através
+                        do atendimento via Whatsapp, também é possível agendar
+                        sua viagem. Na AeroPorto – Serviço de Táxi o seu pet é
+                        bem-vindo, tudo o que for mais confortável para você e
+                        sua família!
                     </p>
                 </div>
                 {isMobile ? (
                     <div className="icons-sobre">
                         <div>
-                        <div className="icon">
-                            <img src={attendance} alt="icone atendimento" />
-                            <div>
-                                <p>ATENDIMENTO</p>
+                            <div className="icon">
+                                <img src={attendance} alt="icone atendimento" />
+                                <div>
+                                    <p>ATENDIMENTO</p>
+                                </div>
                             </div>
-                        </div>
                             <div className="icon">
                                 <img src={security} alt="icone segurança" />
                                 <div>
@@ -70,51 +78,50 @@ function SobreNos() {
                                 </div>
                             </div>
                             <div className="icon">
-                            <img src={pet} alt="icone petfriendely" />
-                            <div>
-                                <p>PET FRIENDLY</p>   
+                                <img src={pet} alt="icone petfriendely" />
+                                <div>
+                                    <p>PET FRIENDLY</p>
+                                </div>
                             </div>
-                        </div>
-
                         </div>
                     </div>
                 ) : (
                     <div className="icons-sobre">
-                         <div className="icon">
+                        <div className="icon">
                             <img src={attendance} alt="icone atendimento" />
-                            <div className='p-footer'>
+                            <div className="p-footer">
                                 <p>ATENDIMENTO</p>
                             </div>
                         </div>
                         <div className="icon">
                             <img src={security} alt="icone segurança" />
-                            <div className='p-footer'>
+                            <div className="p-footer">
                                 <p>SEGURANÇA</p>
                             </div>
                         </div>
                         <div className="icon">
                             <img src={confort} alt="icone conforto" />
-                            <div className='p-footer'>
+                            <div className="p-footer">
                                 <p>CONFORTO</p>
                             </div>
                         </div>
 
                         <div className="icon">
                             <img src={quality} alt="icone qualidade" />
-                            <div className='p-footer'>
+                            <div className="p-footer">
                                 <p>QUALIDADE</p>
                             </div>
                         </div>
                         <div className="icon">
                             <img src={punctuality} alt="icone pontualidade" />
-                            <div className='p-footer'>
-                                <p>PONTUALIDADE</p>   
+                            <div className="p-footer">
+                                <p>PONTUALIDADE</p>
                             </div>
                         </div>
                         <div className="icon">
                             <img src={pet} alt="icone petfriendely" />
-                            <div className='p-footer'>
-                                <p>PET FRIENDLY</p>   
+                            <div className="p-footer">
+                                <p>PET FRIENDLY</p>
                             </div>
                         </div>
                     </div>

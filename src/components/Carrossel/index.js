@@ -7,7 +7,7 @@ import trancoso from '../../assets/trancoso.png'
 import caraiva from '../../assets/caraiva.png'
 import arraial from '../../assets/arraial.png'
 import clubmed from '../../assets/clubmed.png'
-import morrosp from '../../assets/morrosp.png'
+import morrosp from '../../assets/santo-andre.png'
 import pitinga from '../../assets/card-pitinga.png'
 import cabralia from '../../assets/cabralia.png'
 import coroa from '../../assets/coroa.png'
@@ -42,7 +42,17 @@ function Carrossel() {
         <section id="destinos">
             <div className="carrossel-content">
                 <div className="title-destino">
-                    <h1>NOSSOS PRINCIPAIS DESTINOS!</h1>
+                    <h1>PRINCIPAIS DESTINOS</h1>
+                </div>
+                <div className='text-destinos'>
+                    <p>
+                        É quase impossível definir qual é a praia mais bonita da
+                        Bahia, já que o estado possui uma das costas litorâneas
+                        mais incríveis do mundo. Por isso, abaixo você confere
+                        alguns resumos dos principais destinos que são
+                        realizados pelos turistas no dia a dia.<br/> Venha para a
+                        Bahia estamos te esperando!
+                    </p>
                 </div>
                 <Carousel className="cards-carrossel" responsive={responsive}>
                     <div className="card">
