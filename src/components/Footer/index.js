@@ -17,7 +17,7 @@ function Footer() {
                 </div>
                 <div className="h3-footer">
                     <div className="contact">
-                        <h3>CONTATO</h3>
+                        <h3>CONTATO:</h3>
                     </div>
                     <div className="email">
                         <a
@@ -31,7 +31,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="social">
-                    <div>
+                    <div className='follow'>
                         <h3>SIGA-NOS:</h3>
                     </div>
                     <div className="insta">

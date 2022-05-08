@@ -10,10 +10,9 @@
     letter-spacing: 1px;
     font-size: 1.2rem;
     padding-top: 60px;
-}
-.h1-carros h1{
     font-weight: 400;
 }
+
 
 .carros-container {
     display: flex;

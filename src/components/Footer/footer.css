@@ -38,6 +38,8 @@
 .email {
     padding-left: 15px;
     align-self: center;
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
 }
 
 .email a{
@@ -72,9 +74,26 @@
     margin-top: 50px;
 }
 
-p {
-    color: #fff;
+.contact{
+    font-family: 'Oswald';
+    letter-spacing: 1.2px;
 }
+.follow{
+    font-family: 'Oswald';
+    letter-spacing: 1.2px;
+}
+.h3-footer{
+    font-family: 'Oswald';
+    letter-spacing: 1.2px;
+}
+
+.p-footer {
+    color: #f2f2f2;
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
+    font-size: 0.8rem;
+}
+
 
 
 
