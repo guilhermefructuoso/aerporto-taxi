@@ -66,7 +66,7 @@ function Home() {
                             />
 
                             <div className="contact-button">
-                                <input type="submit" />
+                                <button type="submit">Enviar</button>
                             </div>
                         </form>
                     </div>

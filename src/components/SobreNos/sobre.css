@@ -36,6 +36,9 @@
 }
 
 @media (max-width: 1280px) {
+    .container-sobre {
+        height: 600px;
+    }
     .text-sobre {
         font-size: 1.2rem;
         width: 80%;
@@ -49,7 +52,6 @@
     }
     .p-footer p{
         font-size: 0.9rem;
-        
     }
 }
 

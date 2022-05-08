@@ -72,7 +72,7 @@ function SobreNos() {
                             <div className="icon">
                             <img src={pet} alt="icone petfriendely" />
                             <div>
-                                <p>PETFRIENDELY</p>   
+                                <p>PET FRIENDLY</p>   
                             </div>
                         </div>
 
@@ -114,7 +114,7 @@ function SobreNos() {
                         <div className="icon">
                             <img src={pet} alt="icone petfriendely" />
                             <div className='p-footer'>
-                                <p>PETFRIENDELY</p>   
+                                <p>PET FRIENDLY</p>   
                             </div>
                         </div>
                     </div>

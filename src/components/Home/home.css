@@ -74,7 +74,7 @@ textarea {
     height: 120px;
 }
 
-input[type='submit'] {
+button[type='submit'] {
     background-color: #326ec7;
     color: white;
     padding: 15px;
@@ -84,7 +84,7 @@ input[type='submit'] {
     width: 85%;
 }
 
-input[type='submit']:hover {
+button[type='submit']:hover {
     background-color: #00b4c7;
 }
 
