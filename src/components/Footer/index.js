@@ -26,8 +26,8 @@ function Footer() {
                             alt="telefone"
                         >
                             +55 73 98898-8024
-                        </a>
-                        <label>email@email.com.br</label>
+                        </a> 
+                        <address><a href="mailto:email@email.com" alt="telefone" target="-blank" >email@email.com</a></address>
                     </div>
                 </div>
                 <div className="social">
@@ -35,7 +35,7 @@ function Footer() {
                         <h3>SIGA-NOS:</h3>
                     </div>
                     <div className="insta">
-                        <img src={icon} alt="icone instagram" />
+                     <a href='http://www.instagram.com/warriors/' target="-blank"><img src={icon} alt="icone instagram" /></a> 
                     </div>
                 </div>
                 <div className="pagamentos">

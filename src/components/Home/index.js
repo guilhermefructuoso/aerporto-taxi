@@ -6,11 +6,19 @@ import { useForm } from 'react-hook-form'
 function Home() {
     const {
         register,
+        reset,
         handleSubmit,
         formState: { errors },
-    } = useForm()
-    const onSubmit = (data) => console.log(data)
-
+    } = useForm({})
+    const onSubmit = (data) =>{ console.log(data)
+        reset({
+            name: '',
+            email: '',
+            phone: '',
+            destination: '',
+            message: '',
+        })
+    }
     return (
         <section id="home">
             <div className="home-container">
@@ -66,7 +74,7 @@ function Home() {
                             />
 
                             <div className="contact-button">
-                                <button type="submit">Enviar</button>
+                                <button type="submit" >Enviar</button>
                             </div>
                         </form>
                     </div>
