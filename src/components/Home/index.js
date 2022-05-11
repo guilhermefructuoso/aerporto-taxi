@@ -1,16 +1,50 @@
 import React from 'react'
+import firebase from '../../firebaseConnection' 
 import './home.css'
 import whats from '../../assets/whatsapp.png'
 import { useForm } from 'react-hook-form'
+
+
+
 
 function Home() {
     const {
         register,
         reset,
         handleSubmit,
-        formState: { errors },
+        formState: { errors }
     } = useForm({})
-    const onSubmit = (data) =>{ console.log(data)
+    const onSubmit = async (data) => {
+        await firebase.firestore().collection('contact')
+        .add({
+            name: data.name,
+            email: data.email,
+            phone: data.phone,
+            destination: data.destination,
+            message: data.message
+        })
+        .then(()=>{
+            alert('SUCESSO!')
+        })
+        .catch((error)=>{
+            alert('ERRO' + error)
+        })
+
+        await firebase.firestore().collection('mail')
+        .add({
+            to: 'guilherme.santosfructuoso@gmail.com',
+            message: {
+              subject: 'Olá, gostaria de fazer um orçamento!',
+              html: 
+           `  name: ${data.name},
+              email: ${data.email},
+              phone: ${data.phone},
+              destination: ${data.destination},
+              message: ${data.message}`,
+            },
+        })
+    
+        console.log(data)
         reset({
             name: '',
             email: '',
@@ -18,7 +52,9 @@ function Home() {
             destination: '',
             message: '',
         })
+        
     }
+
     return (
         <section id="home">
             <div className="home-container">
@@ -40,26 +76,26 @@ function Home() {
                         </div>
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <label>Nome</label>
-                            <input
+                            <input 
                                 className={errors.name ? 'red-border' : ''}
                                 placeholder="Digite seu nome..."
-                                {...register('name', { required: true })}
+                                {...register('name', { required: true })} 
                             />
                             <label>E-mail</label>
-                            <input
+                            <input 
                                 className={errors.email ? 'red-border' : ''}
                                 placeholder="Digite seu e-mail..."
                                 {...register('email', { required: true })}
                             />
                             <label>Telefone</label>
-                            <input
+                            <input 
                                 className={errors.phone ? 'red-border' : ''}
                                 placeholder="Digite seu telefone..."
                                 {...register('phone', { required: true })}
                             />
 
                             <label>Destino</label>
-                            <input
+                            <input 
                                 className={
                                     errors.destination ? 'red-border' : ''
                                 }
@@ -68,18 +104,18 @@ function Home() {
                             />
 
                             <label>Mensagem</label>
-                            <textarea
+                            <textarea 
                                 placeholder="Digite sua mensagem..."
                                 {...register('message')}
                             />
 
                             <div className="contact-button">
-                                <button type="submit" >Enviar</button>
+                                <button type="submit">Enviar</button>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div>
+              
                     <div className="whats">
                         <a
                             href="http://wa.me/557388988024?text=Olá, gostaria de fazer um orçamento!"
@@ -93,7 +129,7 @@ function Home() {
                             />
                         </a>
                     </div>
-                </div>
+                
             </div>
         </section>
     )

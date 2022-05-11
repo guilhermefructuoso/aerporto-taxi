@@ -159,8 +159,8 @@ label {
         background-size: 700px 1273px;
     }
     .content-home {
-        margin-left: 10%;
-        width: 100%;
+       
+        width: 90%;
         margin-top: 90px;
     }
     .home-container {
@@ -180,7 +180,7 @@ label {
         margin-left: 0;
     }
     .form-home {
-        width: 90%;
+        width: 100%;
         height: fit-content;
         margin-top: -50px;
     }
