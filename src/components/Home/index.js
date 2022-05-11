@@ -68,13 +68,12 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="content-home">
                 <div className="form-home">
-                    <div className="teste">
                         <div className="title-form">
                             <h3>Solicite seu orçamento!</h3>
                         </div>
-                        <form onSubmit={handleSubmit(onSubmit)}>
+                        <div className='form'>
+                        <form  onSubmit={handleSubmit(onSubmit)}>
                             <label>Nome</label>
                             <input 
                                 className={errors.name ? 'red-border' : ''}
@@ -113,7 +112,7 @@ function Home() {
                                 <button type="submit">Enviar</button>
                             </div>
                         </form>
-                    </div>
+                        </div>
                 </div>
               
                     <div className="whats">
@@ -129,8 +128,6 @@ function Home() {
                             />
                         </a>
                     </div>
-                
-            </div>
         </section>
     )
 }

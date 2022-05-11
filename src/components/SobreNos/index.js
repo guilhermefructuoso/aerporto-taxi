@@ -19,23 +19,15 @@ function SobreNos() {
                 </div>
                 <div className="text-sobre">
                     <p>
-                        A AeroPorto – Serviço de Táxi foi criada por 4 amigos
-                        que se conheceram em 2016 e entre muitas coisas em
-                        comum, a paixão por trabalhar com o serviço de translado fez
-                        com que decidissem abrir a própria empresa. São
-                        mais de 6 anos atuando com o transporte de pessoas,
-                        sempre com muita dedicação e qualidade para fazer da sua
-                        viagem um momento inesquecível. A frota é composta por
-                        carros SUVS e equipados com ar-condicionado para o
-                        melhor conforto. Todos os motoristas conhecem o sul da
-                        Bahia como a palma de sua mão e buscam sempre atender os
-                        clientes com todo o conhecimento que adquiriram nesses
-                        anos. Para contratar o serviço é prático e fácil, você
-                        pode solicitar o seu orçamento aqui no site ou através
-                        do atendimento via Whatsapp, também é possível agendar
-                        sua viagem. Na AeroPorto – Serviço de Táxi o seu pet é
-                        bem-vindo, tudo o que for mais confortável para você e
-                        sua família!
+                        Sobre nós A AeroPorto – Serviço de Táxi foi criada por 4
+                        amigos que se conheceram em 2016 e entre muitas coisas
+                        em comum, a paixão por trabalhar com traslado fez com
+                        que decidissem abrir a própria empresa. São mais de 6
+                        anos atuando com o transporte de pessoas, sempre com
+                        muita dedicação e qualidade para fazer da sua viagem um
+                        momento inesquecível. Aqui o seu pet é bem-vindo também,
+                        tudo o que for mais confortável para você e toda a sua
+                        família!
                     </p>
                 </div>
                 {isMobile ? (

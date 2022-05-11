@@ -2,7 +2,7 @@ import React from 'react'
 import './carrossel.css'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import teste from '../../assets/espelho.png'
+import espelho from '../../assets/espelho.png'
 import trancoso from '../../assets/trancoso.png'
 import caraiva from '../../assets/caraiva.png'
 import arraial from '../../assets/arraial.png'
@@ -56,7 +56,7 @@ function Carrossel() {
                 </div>
                 <Carousel className="cards-carrossel" responsive={responsive}>
                     <div className="card">
-                        <img src={teste} alt="Sistema Logo" />
+                        <img src={espelho} alt="Sistema Logo" />
                     </div>
                     <div className="card">
                         <img src={trancoso} alt="Sistema Logo" />

@@ -5,6 +5,7 @@
     display: flex;
     max-width: 1920px;
     height: 1150px;
+    align-items: center;
 }
 
 .home-container {
@@ -30,7 +31,13 @@
     font-family: 'Roboto';
 }
 
-
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
 
 .form-home {
     width: 530px;
@@ -44,18 +51,12 @@
     font-family: 'Roboto';
 }
 
-.teste {
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 40px;
-}
+
 
 .title-form {
     color: #326ec7;
     text-align: center;
-    width: 83%;
+    width: 100%;
     font-family: 'Oswald';
     letter-spacing: 1px;
 }
@@ -113,7 +114,6 @@ label {
     #home {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
     }
  
@@ -127,9 +127,7 @@ label {
         background: rgba(255, 255, 255, 0.9);
         
     }
-    .teste{
-        margin-left: 7%;
-    }
+  
     .home-container {
         display: flex;
         width: 100%;
@@ -182,14 +180,12 @@ label {
         margin-left: 0;
     }
     .form-home {
-        width: 100%;
+        width: 92%;
         height: fit-content;
-        margin-top: -50px;
+        margin-top: 100px;
         align-items: center;
     }
-    .teste{
-        margin-left: 6%;
-    }
+   
     input,
     textarea {
         margin-bottom: 5px;
