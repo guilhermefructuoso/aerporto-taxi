@@ -3,8 +3,6 @@
     background-image: url(../../assets/background1.png);
     background-size: 1920px 1273px;
     display: flex;
-    flex-direction: row;
-    width: 100%;
     max-width: 1920px;
     height: 1150px;
 }
@@ -32,9 +30,7 @@
     font-family: 'Roboto';
 }
 
-.content-home {
-    width: 45%;
-}
+
 
 .form-home {
     width: 530px;
@@ -53,7 +49,7 @@
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 7%;
+    margin-left: 40px;
 }
 
 .title-form {
@@ -128,21 +124,27 @@ label {
         width: 450px;
         height: fit-content;
         margin-top: 0%;
+        background: rgba(255, 255, 255, 0.9);
+        
+    }
+    .teste{
+        margin-left: 7%;
     }
     .home-container {
         display: flex;
+        width: 100%;
         justify-content: center;
         align-items: center;
-        margin-left: 18%;
     }
 
     .h1-content {
-        width: 100%;
+        width: 300px;
         font-size: 1.4rem;
-        margin-left: 5%;
+        margin-left: 0;
         margin-bottom: 50px;
         align-items: center;
         margin-top: 20px;
+        text-align: center;
     }
     .h1-content h1{
         line-height: normal;
@@ -172,7 +174,7 @@ label {
     .h1-content {
         font-size: 1.3rem;
         margin-bottom: 0%;
-        width: 100%;
+        text-align: center;
     }
     .span-home {
         width: 100%;
@@ -183,11 +185,11 @@ label {
         width: 100%;
         height: fit-content;
         margin-top: -50px;
+        align-items: center;
     }
-    .teste {
-        margin-left: 5%;
+    .teste{
+        margin-left: 6%;
     }
-
     input,
     textarea {
         margin-bottom: 5px;
