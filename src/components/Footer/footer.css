@@ -95,13 +95,18 @@
     font-size: 0.8rem;
 }
 
+.logo-footer img{
+    width: 228px;
+    height: 58.25;
+}
+
 
 
 
 @media (max-width: 1280px) {
     .logo-footer img{
-        width: 160px;
-        height: 42.5px;
+        width: 240px;
+        height: 61.31px;
     }
     .h3-footer{
         font-size: 0.8rem;

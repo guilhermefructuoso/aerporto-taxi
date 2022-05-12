@@ -15,11 +15,12 @@
     display: flex;
     width: 27%;
     padding-left: 18.9%;
+    margin-top: 10px;
 }
 
 .logo img {
-    width: 139px;
-    height: 37px;
+    width: 135px;
+    height: 34.39px;
 }
 
 .menu {
