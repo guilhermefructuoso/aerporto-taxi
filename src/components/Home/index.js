@@ -3,6 +3,8 @@ import firebase from '../../firebaseConnection'
 import './home.css'
 import whats from '../../assets/whatsapp.png'
 import { useForm } from 'react-hook-form'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 
 
@@ -24,7 +26,7 @@ function Home() {
             message: data.message
         })
         .then(()=>{
-            alert('SUCESSO!')
+            toast.success('Mensagem enviada com sucesso!')
         })
         .catch((error)=>{
             alert('ERRO' + error)
@@ -35,12 +37,8 @@ function Home() {
             to: 'guilherme.santosfructuoso@gmail.com',
             message: {
               subject: 'Olá, gostaria de fazer um orçamento!',
-              html: 
-           `  name: ${data.name},
-              email: ${data.email},
-              phone: ${data.phone},
-              destination: ${data.destination},
-              message: ${data.message}`,
+              html: JSON.stringify(data)
+          
             },
         })
     
@@ -64,7 +62,7 @@ function Home() {
                         <br /> de táxi em Porto Seguro!
                     </h1>
                     <div className="span-home">
-                        <span>Prestando serviço de qualidade desde 2019</span>
+                        <span>Excelência e qualidade desde 2016</span>
                     </div>
                 </div>
             </div>
@@ -74,26 +72,26 @@ function Home() {
                         </div>
                         <div className='form'>
                         <form  onSubmit={handleSubmit(onSubmit)}>
-                            <label>Nome</label>
+                            <label>Nome*</label>
                             <input 
                                 className={errors.name ? 'red-border' : ''}
                                 placeholder="Digite seu nome..."
                                 {...register('name', { required: true })} 
                             />
-                            <label>E-mail</label>
+                            <label>E-mail*</label>
                             <input 
                                 className={errors.email ? 'red-border' : ''}
                                 placeholder="Digite seu e-mail..."
                                 {...register('email', { required: true })}
                             />
-                            <label>Telefone</label>
+                            <label>Telefone*</label>
                             <input 
                                 className={errors.phone ? 'red-border' : ''}
                                 placeholder="Digite seu telefone..."
                                 {...register('phone', { required: true })}
                             />
 
-                            <label>Destino</label>
+                            <label>Destino*</label>
                             <input 
                                 className={
                                     errors.destination ? 'red-border' : ''

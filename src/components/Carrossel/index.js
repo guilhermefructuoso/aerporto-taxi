@@ -50,8 +50,8 @@ function Carrossel() {
                         Bahia, já que o estado possui uma das costas litorâneas
                         mais incríveis do mundo. Por isso, abaixo você confere
                         alguns resumos dos principais destinos que são
-                        realizados pelos turistas no dia a dia.<br/> Venha para a
-                        Bahia estamos te esperando!
+                        realizados pelos turistas no dia a dia.<br/> <strong>Venha para a
+                        Bahia estamos te esperando!</strong>
                     </p>
                 </div>
                 <Carousel className="cards-carrossel" responsive={responsive}>

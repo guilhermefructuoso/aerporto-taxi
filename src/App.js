@@ -6,6 +6,7 @@ import Carros from './components/Carros'
 import Carrossel from './components/Carrossel'
 import Footer from './components/Footer'
 import { BrowserRouter } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Carros />
             <Carrossel />
             <Footer />
+            <ToastContainer autoClose={3000} />
         </BrowserRouter>
     )
 }

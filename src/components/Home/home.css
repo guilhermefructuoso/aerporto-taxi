@@ -5,12 +5,13 @@
     display: flex;
     max-width: 1920px;
     height: 1150px;
-    align-items: center;
+   
 }
 
 .home-container {
     display: flex;
     width: 55%;
+  
 }
 
 .h1-content {
@@ -23,12 +24,14 @@
 
 .h1-content h1{
     font-weight: 300;
-    line-height: 70px;
+    line-height: 65px;
 }
 
 .span-home {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: 'Roboto';
+    margin-top: -30px;
+    
 }
 
 .form{
@@ -115,6 +118,7 @@ label {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
  
     .content-home {
@@ -141,15 +145,16 @@ label {
         margin-left: 0;
         margin-bottom: 50px;
         align-items: center;
-        margin-top: 20px;
+        margin-top: -60px;
         text-align: center;
     }
     .h1-content h1{
         line-height: normal;
     }
     .span-home {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         margin-left: 4%;
+        margin-top: -10px;
     }
 }
 
@@ -166,7 +171,7 @@ label {
     .home-container {
         width: 300px;
         margin-left: 0%;
-        margin-top: -150px;
+        margin-top: -50px;
     }
 
     .h1-content {
@@ -176,13 +181,13 @@ label {
     }
     .span-home {
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-left: 0;
     }
     .form-home {
         width: 92%;
         height: fit-content;
-        margin-top: 100px;
+        margin-top: 80px;
         align-items: center;
     }
    

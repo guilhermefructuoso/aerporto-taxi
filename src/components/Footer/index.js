@@ -35,7 +35,7 @@ function Footer() {
                         <h3>SIGA-NOS:</h3>
                     </div>
                     <div className="insta">
-                     <a href='http://www.instagram.com/warriors/' target="-blank"><img src={icon} alt="icone instagram" /></a> 
+                     <a href='https://www.instagram.com/aeroporto.taxi/' target="-blank"><img src={icon} alt="icone instagram" /></a> 
                     </div>
                 </div>
                 <div className="pagamentos">
