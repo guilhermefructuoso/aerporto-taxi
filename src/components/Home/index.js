@@ -34,7 +34,7 @@ function Home() {
 
         await firebase.firestore().collection('mail')
         .add({
-            to: 'guilherme.santosfructuoso@gmail.com',
+            to: 'contato@portosegurotaxi.com.br',
             message: {
               subject: 'Olá, gostaria de fazer um orçamento!',
               html: JSON.stringify(data)

@@ -34,7 +34,7 @@ function Footer() {
                                 alt="telefone"
                                 target="-blank"
                             >
-                                email@email.com
+                                contato@portosegurotaxi.com.br
                             </a>
                         </address>
                     </div>
