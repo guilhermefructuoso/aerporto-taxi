@@ -19,7 +19,7 @@ function SobreNos() {
                 </div>
                 <div className="text-sobre">
                     <p>
-                        A AeroPorto – Serviço de Táxi foi criada por 4
+                        A Porto Seguro – Serviço de Táxi foi criada por 4
                         amigos que se conheceram em 2016 e entre muitas coisas
                         em comum, a paixão por trabalhar com traslado fez com
                         que decidissem abrir a própria empresa. São mais de 6
