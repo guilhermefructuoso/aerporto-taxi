@@ -6,6 +6,7 @@ import icon from '../../assets/insta-icon.png'
 import line from '../../assets/line.png'
 import card from '../../assets/cartoes.png'
 import card1 from '../../assets/cartoes1.png'
+import bark from '../../assets/barkout.png'
 
 function Footer() {
     const isTablet = useMediaQuery('(max-width: 1280px)')
@@ -35,7 +36,7 @@ function Footer() {
                         <h3>SIGA-NOS:</h3>
                     </div>
                     <div className="insta">
-                     <a href='https://www.instagram.com/aeroporto.taxi/' target="-blank"><img src={icon} alt="icone instagram" /></a> 
+                     <a href='https://www.instagram.com/portoseguro.taxi/' target="-blank"><img src={icon} alt="icone instagram" /></a> 
                     </div>
                 </div>
                 <div className="pagamentos">
@@ -58,7 +59,10 @@ function Footer() {
                     <img src={line} alt="Sistema Logo" />
                 </div>
                 <div className='p-footer'>
-                    <p>AeroPorto 2022 © Desenvolvido por Agência </p>
+                    <p>PortoSeguro 2022 © Desenvolvido por</p>
+                    <div>
+                 <a href="https://www.instagram.com/agenciabarkout/"target="-blank">  <img src={bark} alt="Sistema Logo" /> </a>
+                    </div>
                 </div>
             </div>
         </div>

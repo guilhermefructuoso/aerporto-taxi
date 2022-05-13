@@ -62,7 +62,7 @@ function Home() {
                         <br /> de táxi em Porto Seguro!
                     </h1>
                     <div className="span-home">
-                        <span>Excelência e qualidade desde 2016</span>
+                        <span>Excelência em transporte desde 2016</span>
                     </div>
                 </div>
             </div>
