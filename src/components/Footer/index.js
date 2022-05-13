@@ -6,7 +6,7 @@ import icon from '../../assets/insta-icon.png'
 import line from '../../assets/line.png'
 import card from '../../assets/cartoes.png'
 import card1 from '../../assets/cartoes1.png'
-import bark from '../../assets/barkout.png'
+import bark from '../../assets/barkout.svg'
 
 function Footer() {
     const isTablet = useMediaQuery('(max-width: 1280px)')
@@ -27,16 +27,29 @@ function Footer() {
                             alt="telefone"
                         >
                             +55 73 98898-8024
-                        </a> 
-                        <address><a href="mailto:email@email.com" alt="telefone" target="-blank" >email@email.com</a></address>
+                        </a>
+                        <address>
+                            <a
+                                href="mailto:email@email.com"
+                                alt="telefone"
+                                target="-blank"
+                            >
+                                email@email.com
+                            </a>
+                        </address>
                     </div>
                 </div>
                 <div className="social">
-                    <div className='follow'>
+                    <div className="follow">
                         <h3>SIGA-NOS:</h3>
                     </div>
                     <div className="insta">
-                     <a href='https://www.instagram.com/portoseguro.taxi/' target="-blank"><img src={icon} alt="icone instagram" /></a> 
+                        <a
+                            href="https://www.instagram.com/portoseguro.taxi/"
+                            target="-blank"
+                        >
+                            <img src={icon} alt="icone instagram" />
+                        </a>
                     </div>
                 </div>
                 <div className="pagamentos">
@@ -58,10 +71,16 @@ function Footer() {
                 <div className="linha">
                     <img src={line} alt="Sistema Logo" />
                 </div>
-                <div className='p-footer'>
+                <div className="p-footer">
                     <p>PortoSeguro 2022 © Desenvolvido por</p>
                     <div>
-                 <a href="https://www.instagram.com/agenciabarkout/"target="-blank">  <img src={bark} alt="Sistema Logo" /> </a>
+                        <a
+                            href="https://www.instagram.com/agenciabarkout/"
+                            target="-blank"
+                        >
+                            {' '}
+                            <img src={bark} alt="Sistema Logo" />{' '}
+                        </a>
                     </div>
                 </div>
             </div>
