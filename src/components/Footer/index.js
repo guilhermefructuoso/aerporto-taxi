@@ -30,7 +30,7 @@ function Footer() {
                         </a>
                         <address>
                             <a
-                                href="mailto:email@email.com"
+                                href="mailto:contato@portosegurotaxi.com.br"
                                 alt="telefone"
                                 target="-blank"
                             >
