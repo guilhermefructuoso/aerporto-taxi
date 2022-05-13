@@ -91,6 +91,7 @@
 .p-footer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     color: #f2f2f2;
     font-family: 'Roboto';
     letter-spacing: 1.2px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-modal'
 import { useState } from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import './nav.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import useMediaQuery from '@mui/material/useMediaQuery'
@@ -16,7 +16,7 @@ const customStyles = {
         height: 'auto',
         color: '#fff',
         background: 'rgba(0, 80, 199)',
-        top: '153px',
+        top: '164px',
         right: 'auto',
         bottom: 'auto',
         borderRadius: '8px',

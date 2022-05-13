@@ -1,7 +1,7 @@
 import React from 'react'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import './footer.css'
-import logo from '../../assets/logo-footer.png'
+import logo from '../../assets/logo.svg'
 import icon from '../../assets/insta-icon.png'
 import line from '../../assets/line.png'
 import card from '../../assets/cartoes.png'
