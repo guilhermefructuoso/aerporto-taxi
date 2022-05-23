@@ -42,7 +42,7 @@ function Home() {
             },
         })
     
-        console.log(data)
+       
         reset({
             name: '',
             email: '',

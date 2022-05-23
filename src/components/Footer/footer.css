@@ -36,7 +36,7 @@
 }
 
 .email {
-    padding-left: 15px;
+    padding-left: 20px;
     align-self: center;
     font-family: 'Roboto';
     letter-spacing: 1.2px;
@@ -130,6 +130,9 @@
         width: 202px;
         height: 21.44px;
     }
+    .email{
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -146,6 +149,7 @@
     }
     .email {
         font-size: 1rem;
+        text-align: center;
     }
     .linha img {
         width: 100%;

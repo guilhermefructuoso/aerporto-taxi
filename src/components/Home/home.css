@@ -1,6 +1,6 @@
 
 #home {
-    background-image: url(../../assets/background1.png);
+    background-image: url(../../assets/background-praia-da-pitinga-comp.png);
     background-size: 1920px 1273px;
     display: flex;
     max-width: 1920px;
@@ -31,6 +31,7 @@
     font-size: 1.5rem;
     font-family: 'Roboto';
     margin-top: -30px;
+    text-align: center;
     
 }
 
@@ -141,7 +142,7 @@ label {
 
     .h1-content {
         width: 300px;
-        font-size: 1.4rem;
+        font-size: 1.45rem;
         margin-left: 0;
         margin-bottom: 50px;
         align-items: center;
@@ -152,15 +153,16 @@ label {
         line-height: normal;
     }
     .span-home {
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-left: 4%;
         margin-top: -10px;
+        text-align: center;
     }
 }
 
 @media (max-width: 700px) {
     #home {
-        background-image: url(../../assets/background.png);
+        background-image: url(../../assets/background-praia-da-pitinga-mobile.png);
         background-size: 700px 1273px;
     }
     .content-home {
