@@ -31,7 +31,7 @@ function Home() {
         .catch((error)=>{
             alert('ERRO' + error)
         })
-
+       
         await firebase.firestore().collection('mail')
         .add({
             to: 'contato@portosegurotaxi.com.br',
@@ -41,8 +41,15 @@ function Home() {
           
             },
         })
-    
-       
+
+        const $btn = document.querySelector('#btn')
+
+        $btn.addEventListener("keyup", function(e){
+            if(e.keyCode === 13){
+                $btn();
+            }
+        })
+        
         reset({
             name: '',
             email: '',
@@ -50,7 +57,8 @@ function Home() {
             destination: '',
             message: '',
         })
-        
+
+       
     }
 
     return (
@@ -107,7 +115,7 @@ function Home() {
                             />
 
                             <div className="contact-button">
-                                <button type="submit">Enviar</button>
+                                <button id='btn' type="submit">Enviar</button>
                             </div>
                         </form>
                         </div>
