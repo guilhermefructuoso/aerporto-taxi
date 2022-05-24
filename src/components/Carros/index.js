@@ -1,9 +1,9 @@
 import React from 'react'
 import './carros.css'
 import car from '../../assets/renault.png'
-import text from '../../assets/text-renault.png'
+import { HiCheck } from 'react-icons/hi'
 import jeep from '../../assets/jeep.png'
-import textJeep from '../../assets/text-jeep.png'
+
 
 function Carros() {
     return (
@@ -27,13 +27,73 @@ function Carros() {
                     <img src={car} alt="Sistema Logo" />
                 </div>
                 <div className="text-renault">
-                    <img src={text} alt="Sistema Logo" />
+                    <h2>Renault Duster</h2>
+                    <span>1.6 16V SCE FLEX INTENSE X-TRONIC 2021</span>
+                    <div className="check">
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Ar Condicionado</p>
+                            </div>
+                        </div>
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Freios ABS - com EBD</p>
+                            </div>
+                        </div>
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Trava/Abertura elétrica das portas</p>
+                            </div>
+                        </div>
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Cintos de segurança com 3 pontos</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div className="jeep-content">
                 <div className="text-jeep">
-                    <img src={textJeep} alt="Sistema Logo" />
+                <h2>JEEP COMPASS</h2>
+                    <span>2.0 16V diesel LONGITUDE AUTOMÁTICO</span>
+                    <div className="check">
+                    <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>4 X 4</p>
+                            </div>
+                        </div>
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Ar Condicionado</p>
+                            </div>
+                        </div>
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Freios ABS - com EBD</p>
+                            </div>
+                        </div>
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Trava/Abertura elétrica das portas</p>
+                            </div>
+                        </div>
+                        <div className="icon-check">
+                            <HiCheck color="#00b4c7" size={25} />
+                            <div className="p-carros">
+                                <p>Cintos de segurança com 3 pontos</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="compass-img">
                     <img src={jeep} alt="Sistema Logo" />

@@ -48,13 +48,48 @@
 }
 
 .text-renault {
-    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    width: 100%;
+    min-width: 340px;
+    height: 100%;
+    color: #3E5C89;
+    font-family: 'Oswald';
+    line-height: 12px;
+    font-size: 1.2rem;
 }
 
-.text-renault img {
-    width: 382px;
-    height: 227.5px;
+.text-jeep {
+    display: flex;
+    flex-direction: column;
+    min-width: 340px;
+    margin-right: 3%;
+    height: 100%;
+    color: #3E5C89;
+    font-family: 'Oswald';
+    line-height: 12px;
+    font-size: 1.2rem;
 }
+
+
+.check{
+    margin-top: 30px;  
+}
+
+.icon-check{
+    display: flex;
+    align-items: center;
+    line-height: 2px;
+}
+
+.p-carros{
+    font-family: 'Roboto';
+    padding-left: 15px;
+}
+
+
 
 .jeep-content {
     display: flex;
@@ -72,10 +107,6 @@
     padding-right: 2%;
 }
 
-.text-jeep img {
-    width: 368px;
-    height: 261px;
-}
 
 @media (max-width: 1280px) {
     #carros {
@@ -95,24 +126,22 @@
         height: 283.9px;
     }
     .text-renault {
-        padding-left: 2%;
+        margin-left: 2%;
         margin-bottom: 30px;
+        font-size: 0.9rem;
     }
-    .text-renault img {
-        width: 300px;
-        height: 177px;
-    }
+   
     .compass-img img {
         width: 400px;
         height: 278.64px;
     }
     .text-jeep {
         margin-top: 30px;
+        font-size: 0.9rem;
+        min-width: 250px;
+        padding: 0;
     }
-    .text-jeep img {
-        width: 270.8px;
-        height: 192px;
-    }
+  
     .p-sobre{
         font-size: 1.2rem;
         width: 80%;
@@ -124,14 +153,30 @@
 
 @media (max-width: 700px) {
     #carros {
-        height: 1350px;
+        height: 1390px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .renault-content {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .text-renault {
-        margin-left: 30%;
-        margin-bottom: 30px;
+       margin-left: 20%;
+       width: 100%;
+       min-width: 300px;
+       font-size: 0.9rem;
+      
+    }
+
+    .text-jeep{
+       width: 100%;
+       min-width: 300px;
+       font-size: 0.9rem;
+   
     }
     .jeep-content {
         flex-direction: column-reverse;
