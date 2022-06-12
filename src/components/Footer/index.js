@@ -30,11 +30,11 @@ function Footer() {
                         </a>
                         <address>
                             <a
-                                href="mailto:contato@portosegurotaxi.com.br"
+                                href="mailto:portosegurotaxi1@gmail.com"
                                 alt="telefone"
                                 target="-blank"
                             >
-                                contato@portosegurotaxi.com.br
+                                portosegurotaxi1@gmail.com
                             </a>
                         </address>
                     </div>

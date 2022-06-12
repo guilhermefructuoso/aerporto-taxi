@@ -17,6 +17,7 @@
 
 .title-destino h1{
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .text-destinos{
@@ -45,14 +46,43 @@
     justify-content: center;
     text-align: center;
     width: 320px;
-    height: 600px;
+    height: 550px;
     background-color: #fff;
+    position: relative;
+    margin: 55px auto;
+}
+
+.new-card p{
+    line-height: 22px;
+    padding: 15px;
+    width: 280px;
+    height:250px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    color: #3E5C89;
+    text-align: justify;
+}
+
+.new-card h2{
+    margin-top: 150px;
+    
+    font-family: 'Oswald';
+    font-weight: normal;
+    color: #3E5C89;
+    text-transform: uppercase;
+}
+
+.h2__img{
+    line-height: 1px;
+    margin-top: 20px;
 }
 
 .card{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    margin-bottom: 450px;
   }
 
 

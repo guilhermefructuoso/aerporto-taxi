@@ -4,13 +4,12 @@ import car from '../../assets/renault.png'
 import { HiCheck } from 'react-icons/hi'
 import jeep from '../../assets/jeep.png'
 
-
 function Carros() {
     return (
         <section id="carros">
             <div className="carros-container">
                 <div className="h1-carros">
-                    <h1>CONHEÇA NOSSOS CARROS </h1>
+                    <h1>Conheça nossos carros</h1>
                 </div>
                 <div className="p-sobre">
                     <p>
@@ -22,6 +21,7 @@ function Carros() {
                     </p>
                 </div>
             </div>
+
             <div className="renault-content">
                 <div className="duster-img">
                     <img src={car} alt="Sistema Logo" />
@@ -60,10 +60,10 @@ function Carros() {
 
             <div className="jeep-content">
                 <div className="text-jeep">
-                <h2>JEEP COMPASS</h2>
+                    <h2>JEEP COMPASS</h2>
                     <span>2.0 16V diesel LONGITUDE AUTOMÁTICO</span>
                     <div className="check">
-                    <div className="icon-check">
+                        <div className="icon-check">
                             <HiCheck color="#00b4c7" size={25} />
                             <div className="p-carros">
                                 <p>4 X 4</p>

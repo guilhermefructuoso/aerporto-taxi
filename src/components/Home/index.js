@@ -34,20 +34,12 @@ function Home() {
        
         await firebase.firestore().collection('mail')
         .add({
-            to: 'contato@portosegurotaxi.com.br',
+            to: 'portosegurotaxi1@gmail.com',
             message: {
               subject: 'Olá, gostaria de fazer um orçamento!',
               html: JSON.stringify(data)
           
             },
-        })
-
-        const $btn = document.querySelector('#btn')
-
-        $btn.addEventListener("keyup", function(e){
-            if(e.keyCode === 13){
-                $btn();
-            }
         })
         
         reset({
