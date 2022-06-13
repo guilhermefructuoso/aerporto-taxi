@@ -34,10 +34,7 @@
     font-weight: 300;
 }
 
-.cards-carrossel {
-    display: flex;
-    align-items: center;
-}
+
 
 .new-card{
     display: flex;
@@ -55,17 +52,17 @@
 .new-card p{
     line-height: 22px;
     padding: 15px;
-    width: 280px;
-    height:250px;
+    width: 100%;
+    max-width: 280px;
+    height:260px;
     margin-top: 20px;
     font-family: 'Roboto';
     color: #3E5C89;
-    text-align: justify;
+    text-align: left;
 }
 
 .new-card h2{
     margin-top: 150px;
-    
     font-family: 'Oswald';
     font-weight: normal;
     color: #3E5C89;
@@ -79,7 +76,6 @@
 
 .card{
     display: flex;
-    align-items: center;
     position: absolute;
     margin-bottom: 450px;
   }
@@ -99,10 +95,5 @@
     .title-destino {
         font-size: 0.8rem;
     }
-    .card{
-      display: flex;
-      align-items: center;
-    }
-
     
 }

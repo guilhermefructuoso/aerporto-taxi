@@ -61,8 +61,8 @@ function Carrossel() {
                         </p>
                     </div>
                     <Carousel
-                        className="cards-carrossel"
                         responsive={responsive}
+                        autoPlaySpeed={30000}
                     >
                         <div className="new-card">
                             <div className="card">
@@ -112,7 +112,7 @@ function Carrossel() {
                                 vila rústica e isolada, que foi descoberta pelos
                                 hippes nos anos 70 para se tornar o destino
                                 turístico dos antenados e vips. O Quadrado,
-                                praça que fiica localizada no centro, emoldurada
+                                praça que fica localizada no centro, emoldurada
                                 por casinhas coloridas e pela igreja branca,
                                 continua a ser o coração do local.
                             </p>
