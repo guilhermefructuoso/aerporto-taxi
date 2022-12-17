@@ -26,7 +26,16 @@ function Footer() {
                             target="-blank"
                             alt="telefone"
                         >
-                            +55 73 98898-8024
+                            +55 73 98898-8024 - Porto Seguro <br/>
+                            
+                        </a>
+                        <a
+                            href="http://wa.me/5573999089183?text=Olá, gostaria de fazer um orçamento!"
+                            target="-blank"
+                            alt="telefone"
+                        >
+                            +55 73 99908-9183 - Trancoso 
+                            
                         </a>
                         <address>
                             <a

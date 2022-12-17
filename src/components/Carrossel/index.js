@@ -196,7 +196,7 @@ function Carrossel() {
                                 no sul da Bahia. O resort tem vista sem igual
                                 para o mar e acesso exclusivo à praia, por meio
                                 de trilhas entre as falésias e também a opção de
-                                ir elevador panorâmico.
+                                ir de elevador panorâmico.
                             </p>
                         </div>
                         <div className="new-card">

@@ -1,3 +1,0 @@
-api para destinos no formulario
-obrigatorio codigo de area no telefone
-formatação do email

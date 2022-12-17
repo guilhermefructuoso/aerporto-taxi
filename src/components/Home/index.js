@@ -1,5 +1,6 @@
 import React from 'react'
-import firebase from '../../firebaseConnection' 
+import { db } from '../../firebaseConnection'
+import { addDoc, collection } from 'firebase/firestore'
 import './home.css'
 import whats from '../../assets/whatsapp.png'
 import { useForm } from 'react-hook-form'
@@ -17,8 +18,7 @@ function Home() {
         formState: { errors }
     } = useForm({})
     const onSubmit = async (data) => {
-        await firebase.firestore().collection('contact')
-        .add({
+        await addDoc(collection(db, "contact"),{
             name: data.name,
             email: data.email,
             phone: data.phone,
@@ -32,8 +32,7 @@ function Home() {
             alert('ERRO' + error)
         })
        
-        await firebase.firestore().collection('mail')
-        .add({
+        await addDoc(collection(db, "mail"), {
             to: 'portosegurotaxi1@gmail.com',
             message: {
               subject: 'Olá, gostaria de fazer um orçamento!',
@@ -126,7 +125,7 @@ function Home() {
                             />
                         </a>
                     </div>
-        </section>
+        </section> 
     )
 }
 
